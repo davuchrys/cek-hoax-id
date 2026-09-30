@@ -7,3 +7,7 @@ models/metrics.json
 data/raw/
 uvicorn.log
 data/corpus.csv
+
+# personal messages may contain private info
+data/eval/*.csv
+!data/eval/TEMPLATE.csv
