@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      AUTO_UPDATE_HOURS: "24"   # fetch new items and retrain daily; 0 disables
+    volumes:
+      - ./data:/app/data        # keep the growing corpus outside the container

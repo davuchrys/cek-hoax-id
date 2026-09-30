@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+models/*.joblib
+models/metrics.json
+data/raw/
+uvicorn.log
+data/corpus.csv
